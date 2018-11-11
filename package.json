@@ -4,7 +4,7 @@
   "description": "hello http2",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node index.js --expose-http2"
   },
   "repository": {
     "type": "git",
