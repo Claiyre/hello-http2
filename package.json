@@ -1,0 +1,28 @@
+{
+  "name": "hello-http2",
+  "version": "1.0.0",
+  "description": "hello http2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claiyre/hello-http2.git"
+  },
+  "keywords": [
+    "http2",
+    "demo"
+  ],
+  "author": "Claiyre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Claiyre/hello-http2/issues"
+  },
+  "homepage": "https://github.com/Claiyre/hello-http2#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "spdy": "^4.0.0"
+  }
+}
