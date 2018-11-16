@@ -22,4 +22,4 @@ $ openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out se
 $ openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out server.crt
 ```
 
-将得到的三个文件拷贝到`ca/`下即可
+将得到的三个文件拷贝到`ssl/`下即可

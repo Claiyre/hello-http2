@@ -16,8 +16,8 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/src/page1.html')
 })
 var options = {
-    key: fs.readFileSync('./ca/server.key'),
-    cert: fs.readFileSync('./ca/server.crt'),
+    key: fs.readFileSync('./ssl/server.key'),
+    cert: fs.readFileSync('./ssl/server.crt'),
     protocols: [ 'h2', 'spdy/3.1', 'http/1.1' ]
 }
   
