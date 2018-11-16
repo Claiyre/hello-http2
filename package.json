@@ -2,9 +2,9 @@
   "name": "hello-http2",
   "version": "1.0.0",
   "description": "hello http2",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js --expose-http2"
+    "start": "node server.js --expose-http2"
   },
   "repository": {
     "type": "git",
